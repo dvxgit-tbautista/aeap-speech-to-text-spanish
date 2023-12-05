@@ -29,7 +29,7 @@ const argv = require("yargs/yargs")(process.argv.slice(2))
 		port: {
 			alias: "p",
 			desc: "Port to listen on",
-			default: 9099,
+			default: 1011,
 			type: "number",
 			group: "Server",
 		},
